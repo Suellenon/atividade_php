@@ -33,25 +33,50 @@
     elseif($numero1 < $numero2){
        echo "$numero1 é menor que $numero2";}
     else
-       echo "$numero1 e $numero2 são iguais" ;
+       echo "$numero1 e $numero2 são iguais" . "<br>";
     
     
     
     
     //Q5
-    
-    
+    $palavra ="celular";
+
+
+
+   if (str_contains($palavra,"a")== 1 && str_contains($palavra,"o")==1){
+    echo "Contém as letras";
+   }
+   else{
+    echo "Não contém";
+   }
+
+   echo "<br>";
+  
     
     
     //Q6
     
 
-    //07
+
+
+//     //07
+
+   
+     
+
+    
+
+  
+
+
+
+
+
     //08
     echo "<br>";
     $idade=12;
-    $res = ($idade >= 18) ? "Maior de idade": "Menor de idade";
-    echo $res;
+    echo ($idade >= 18) ? "Maior de idade": "Menor de idade";
+   
     echo "<br>";
     //Q9
     $alunos = array(
@@ -64,15 +89,24 @@
 
     );
     foreach($alunos as $nome => $notas){
-        if($notas >= 7){
+         if($notas >= 7){
            
-            echo "$nome = $notas ". "<br>";
+             echo "$nome = $notas ". "<br>";
 
-        }
-    }
-
-    //Q11
-    
-
+         }
+      }
+     //10
+    // //Q11
+    // $valor=10
+//     $arrayPares=[];
+//     function pares($valor){
+//         for(i = 0 ; i<= $valor;i++){
+//             if(i % $valor = 0){
+//                 $arrayPares_push[i];
+//             }
+//         }
+//     }
+//      echo pares(10);
+// echo $arrayPares;
     
 ?>

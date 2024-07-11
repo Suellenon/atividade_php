@@ -1,38 +1,78 @@
-<?php
-//Q1
-$NOME = 'Maria';
-echo $NOME . "<br>";
-
-//Q2
-$nome = 'João';
-$idade = 34;
-$endereco= 'São Luis';
-$curso = 'barbeiro';
-
-echo "Olá eu sou $nome , tenho $idade anos, moro em $endereco  e faço curso de $curso no Senac ";
-
-//Q3
-// $numero1 = 4
-// $numero2 = 6
-
-
-//Q4
-
-
-
-
-
-//Q5
-
- 
-   
+ <?php
+    //Q1
+    $NOME = 'Maria';
+    echo $NOME . "<br>";
+    echo strtoupper($NOME) . "<br>";  // tudo em maiuscula
+    
+    //Q2
+    $nome = 'João';
+    $idade = 34;
+    $endereco= 'São Luis';
+    $curso = 'barbeiro';
+    
+    echo "Olá eu sou $nome , tenho $idade anos, moro em $endereco  e faço curso de $curso no Senac ". "<br>";
+    
+    //Q3
+     $valor1= 10;
+     $valor2=5;
+     $soma= $valor1 + $valor2;
+     $sub =$valor1 - $valor2;
+     $mul= $valor1 * $valor2;
+     $div= $valor1 / $valor2;
+     echo "A soma de $valor1 + $valor2 é $soma". "<br>";
+     echo "A subtração de $valor1 - $valor2 é $sub". "<br>";
+     echo "A multiplicação de $valor1 * $valor2 é $mul". "<br>";
+     echo "A divisão de $valor1 : $valor2 é $div". "<br>";
   
-//Q6
+    //Q4
+     $numero1 = 0; 
+     $numero2 =0 ;   
 
+    if($numero1 > $numero2){  
+        echo "$numero1 é maior que $numero2";}
+    elseif($numero1 < $numero2){
+       echo "$numero1 é menor que $numero2";}
+    else
+       echo "$numero1 e $numero2 são iguais" ;
+    
+    
+    
+    
+    //Q5
+    
+    
+    
+    
+    //Q6
+    
 
+    //07
+    //08
+    echo "<br>";
+    $idade=12;
+    $res = ($idade >= 18) ? "Maior de idade": "Menor de idade";
+    echo $res;
+    echo "<br>";
+    //Q9
+    $alunos = array(
+        'Junior'=>9.5,
+        'Maria'=> 10,
+        'Paulo'=>6,
+        'Ana'=>8.5,
+        'Pedro'=>5,5,
+        'Julia'=>6,5
 
+    );
+    foreach($alunos as $nome => $notas){
+        if($notas >= 7){
+           
+            echo "$nome = $notas ". "<br>";
 
+        }
+    }
 
+    //Q11
+    
 
-
+    
 ?>

@@ -39,7 +39,7 @@
     
     
     //Q5
-    $palavra ="celular";
+    $palavra ="bolsa";
 
 
 
@@ -108,5 +108,18 @@
 //     }
 //      echo pares(10);
 // echo $arrayPares;
+
+
+//Q13
+ 
+ function palindromo($nova){
+     if(strrev($nova)=== $nova){
+        echo "É um palíndromo";
+        
+     }else{
+        echo "Não é um palíndromo";
+    }
+ }      palindromo("asa");
+  
     
 ?>

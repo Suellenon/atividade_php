@@ -3,7 +3,7 @@
     $NOME = 'Maria';
     echo $NOME . "<br>";
     echo strtoupper($NOME) . "<br>";  // tudo em maiuscula
-    
+    echo strtolower($NOME)  ."<br>";
     //Q2
     $nome = 'João';
     $idade = 34;
@@ -43,7 +43,7 @@
 
 
 
-   if (str_contains($palavra,"a")== 1 && str_contains($palavra,"o")==1){
+   if (str_contains($palavra,"a") == 1 && str_contains($palavra,"o") == 1 ){
     echo "Contém as letras";
    }
    else{
@@ -108,10 +108,26 @@
 //     }
 //      echo pares(10);
 // echo $arrayPares;
+//q11
+
+
+// function Pares($numero){
+//     for($i = 0;$i <= $numero;$i++){
+//      if($i % 2 == 0){
+      
+//         $arrayPares_push($i);
+//          return $arrayPares();
+   
+       
+//      }
+
+//    }   
+
+// }     
 
 
 //Q13
- 
+    echo "<br>";
  function palindromo($nova){
      if(strrev($nova)=== $nova){
         echo "É um palíndromo";

@@ -39,19 +39,20 @@
     
     
     //Q5
-    $palavra ="bolsa";
+    $palavra ="bla";
 
 
 
-   if (str_contains($palavra,"a") == 1 && str_contains($palavra,"o") == 1 ){
-    echo "Contém as letras";
-   }
-   else{
-    echo "Não contém";
-   }
+//    if (str_contains($palavra,"a") == 1 && str_contains($palavra,"o") == 1 ){
+//     echo "Contém as letras";
+//    }
+//    else{
+//     echo "Não contém";
+//    }
 
-   echo "<br>";
+//    echo "<br>";
   
+     echo (str_contains($palavra, "a")  && str_contains($palavra, "o")  ) ? "Contêm as letras" : "Não contêm as letras";
     
     
     //Q6
@@ -110,20 +111,18 @@
 // echo $arrayPares;
 //q11
 
-
-// function Pares($numero){
-//     for($i = 0;$i <= $numero;$i++){
-//      if($i % 2 == 0){
+//  $arrayPares=array()
+//  function Pares($numero){
+//       for($i = 0;$i <= $numero;$i++){
+//        if($i % 2 == 0){
       
-//         $arrayPares_push($i);
-//          return $arrayPares();
-   
-       
-//      }
+//       $arrayPares_push($i);
+//      $arrayPares =  Pares(10) ;
+//      return $arrayPares=array();
+//  } 
 
-//    }   
-
-// }     
+//  }  
+//  }     echo var_dump($arrayPares);
 
 
 //Q13
@@ -135,7 +134,7 @@
      }else{
         echo "Não é um palíndromo";
     }
- }      palindromo("asa");
+ }      palindromo("arara");
   
     
 ?>
